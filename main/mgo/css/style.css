@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Kreon:300,400,700);
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-color:#F7F6E8;
+  font-size:24px;
+  font-family: 'Rockwell', 'Kreon', serif;
+  font-weight:300;
+  line-height:1.5;
+}
+
+.wrapper {
+  border-left: 150px solid #555;
+  border-right: 10px solid #d46e58;
+  overflow:auto;
+}
+
+h1 {
+  font-size: 2.8em;
+  text-align:center;
+  color:#d46e58;
+  font-family: 'Lato', sans-serif;
+  font-weight:600;
+  text-transform:uppercase;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-align:center;
+  color:#d46e58;
+   font-weight:400;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-family:  'Lato', sans-serif;
+  margin: 20px 10px;
+   font-weight:600;
+} 
+
+h4 {
+  font-size: 1.3em;
+  font-family:  'Lato', sans-serif;
+  margin: 10px 0px;
+  border-bottom:1px solid #000;
+   font-weight:600;
+} 
+
+p {
+  margin: 15px 10px;
+  padding:15px;
+}
+
+.cover {
+  position:relative; 
+}
+
+.title {
+  position:absolute;
+  top: 50%;
+  width:100%;
+  padding:10px;
+}
+ 
+.down {
+  position:fixed;
+  display:block;
+  bottom:0px;
+  left:50%;
+  margin-left:50px;
+  padding:0px 10px;
+  background:#d46e58;
+  border-radius: 10px 10px 0 0;
+  cursor:pointer;
+}
+
+.pagination{
+  text-align:center;
+  clear:both;
+  display:none;
+}
+
+.full {
+  margin-top:150px;
+}
+
+.right {
+  text-align:right;
+}
+.previous, .next {
+  cursor:pointer;
+  display:inline-block;
+  padding: 5px 20px;
+}
+
+
+.sidebar {
+  position:fixed;
+  width:250px;
+  left:-250px;
+  background:#d46e58;
+  font-size:18px;
+}
+
+.sidebar-content {
+  overflow:auto;
+  padding:15px;
+}
+
+nav a{
+  text-decoration:none;
+  font-style:italic;
+  color:#000;
+  display:block;
+}
+
+nav a:hover {
+  text-decoration:underline;
+}
+.search {
+ width:100%;
+ border:none;
+ padding:10px;
+ font-size:18px;
+ border-radius:5px;
+ 
+}
+
+.toggle {
+  position:fixed;
+  left:0px;
+  top:20px;
+  width:50px;
+  padding:10px;
+  display:block;
+  background:#000;
+  color:white;
+  border-radius: 0 10px 10px 0;
+  text-align:center;
+  cursor:pointer;
+  z-index:9990;
+}
+
+.toggle-active {
+  display:none;
+  position:fixed;
+  left:0;
+  top:20px;
+  width:50px;
+  padding:10px;
+  color:white;
+  border-radius: 0 10px 10px 0;
+  text-align:center;
+  cursor:pointer;
+  z-index:9999;
+  background:#d46e58;
+}
+
+@media only screen and (max-width : 880px){
+  .wrapper {
+  border-left: 10px solid #555;
+  }
+  
+  .pagination {
+    display:block;
+  }
+  
+  .full {
+    display:none !important;
+  }
+  .down {
+    display:none !important;
+  }
+}

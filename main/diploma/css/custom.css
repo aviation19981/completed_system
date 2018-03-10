@@ -1,0 +1,282 @@
+/*! Place your custom styles here */
+
+.bar .logo{ max-width: none; max-height: 50px; }
+
+.correct--padding{
+	padding-top: 2em;
+	padding-bottom: 2em; 
+}
+.correct--margin{
+margin-top: 2em !important;
+margin-bottom: 2em;
+}
+.feature-1{
+	min-height: 5em;
+}
+h2{
+	font-size: 3.1em;
+}
+h6, .h6{
+	font-size: 1.1em;
+
+}
+.footer .type--fine-print:not(p){
+	opacity: 0.7;
+}
+.footer .type--fine-print{
+	opacity: 0.7;
+}
+.type--fine-print{
+	font-size: 0.97em;
+}
+
+.proactive-headsup{
+	/*display: none;*/
+	position: fixed;
+	width: 3.71428571em;
+    height: 3.71428571em;
+	top: 50px;
+	left: -2px;
+	padding: 10px 10px 10px 12px;
+	border-radius: 5px;
+	border:1px #ccc;
+	background: #fff;
+	z-index: 99;
+	font-size: 1.2em;
+	color: #2a4982 !important;
+	text-align: center;
+}
+a .proactive-headsup{
+	text-decoration: none;
+	color: #2a4982;
+}
+a:hover .proactive-headsup{
+	text-decoration: none;
+	color: #2a4982;
+}
+
+.bar__module{
+	font-size: 1.09em;
+	opacity: 0.9;
+}
+/*TRAFICO*/
+.trafficlistnettotal {
+	background-color: #D9EDF7;
+	color: #3A87AD;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 1px solid #96CDE9;
+	border-radius: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+tr.trafico {
+	border-bottom: 5px solid #EFEFEF;
+}
+tr.trafico > td {
+	border-bottom: 1px solid #D8D8D8;
+}
+tr.princ{
+	background-color: #2a4982;
+	color: #FFFFFF;
+	text-align: center;
+	height: 35px;
+	}
+	
+	div.boton {
+	background-color: #2F5E9F;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #15356F;
+	border-radius: 13px;
+	margin-top: 20px;
+}
+div.boton:hover {
+	background-color: #437BC7;
+}
+
+.boton {
+	color: #FFFFFF;
+	background-color: #2a4982;
+	padding-top: 7px;
+	padding-right: 15px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	border: 1px solid #2a4982;
+	font-family:'Open Sans', sans-serif;
+	font-size: 16px;
+}
+input.boton:disabled {
+	color: #FFFFFF;
+	background-color: #7E7F7F;
+	padding-top: 7px;
+	padding-right: 15px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	border: 1px solid #838486;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+input.boton:hover {
+	background-color: #416EC1;
+}
+
+/*AVIATION ICONS*/
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 18/07/2016 15:46
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        /*font-size: 20px;*/
+font-style: normal;
+/*margin-left: 20px;*/
+}
+
+.flaticon-aeroplane:before { content: "\f100"; }
+.flaticon-aeroplane-1:before { content: "\f101"; }
+.flaticon-aeroplane-2:before { content: "\f102"; }
+.flaticon-aeroplane-3:before { content: "\f103"; }
+.flaticon-air-hostess:before { content: "\f104"; }
+.flaticon-airplane-ticket:before { content: "\f105"; }
+.flaticon-airplane-ticket-1:before { content: "\f106"; }
+.flaticon-airport:before { content: "\f107"; }
+.flaticon-arrival:before { content: "\f108"; }
+.flaticon-compass:before { content: "\f109"; }
+.flaticon-departures:before { content: "\f10a"; }
+.flaticon-flight:before { content: "\f10b"; }
+.flaticon-luggage:before { content: "\f10c"; }
+.flaticon-luggage-1:before { content: "\f10d"; }
+.flaticon-luggage-2:before { content: "\f10e"; }
+.flaticon-luggage-3:before { content: "\f10f"; }
+.flaticon-parachute:before { content: "\f110"; }
+.flaticon-passport:before { content: "\f111"; }
+.flaticon-pilot:before { content: "\f112"; }
+.flaticon-security:before { content: "\f113"; }
+.flaticon-travel:before { content: "\f114"; }
+.flaticon-travel-1:before { content: "\f115"; }
+
+
+/*MOBILE*/
+
+@media only screen and (max-width: 760px ){
+	.proactive-headsup{
+		display: none;
+	}
+}
+@media only screen and (max-width: 760px){
+	#vuelos{
+		display: none;
+	}
+}
+
+/*FLIGHT TRACKS*/
+
+.tg  {border-collapse:collapse;border-spacing:0;
+border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border: 0px solid #000000;
+}
+
+
+
+#caja {
+background-color: #2d3b45;
+height: 40px;
+/*para Firefox*/
+-moz-border-radius: 15px 15px 0px 0px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 15px 15px 0px 0px;
+/* para Opera */
+border-radius: 15px 15px 0px 0px;
+}
+
+#caja1 {
+background-color: #f16836;
+
+height: 5px;
+/*para Firefox*/
+-moz-border-radius: 0px 0px 0px 0px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 0px 0px 0px 0px;
+/* para Opera */
+border-radius: 0px 0px 0px 0px;
+}
+
+#caja2 {
+background-color: #2d3b45;
+padding: 10px;
+height: 85px;
+/*para Firefox*/
+-moz-border-radius: 0px 0px 0px 0px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 0px 0px 0px 0px;
+/* para Opera */
+border-radius: 0px 0px 0px 0px;
+}
+
+
+#caja3 {
+background-color: #f16836;
+height: 40px;
+/*para Firefox*/
+-moz-border-radius: 0px 0px 15px 15px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 0px 0px 15px 15px;
+/* para Opera */
+border-radius: 0px 0px 15px 15px;
+}
+
+
+#caja4 {
+background-color: #f69533;
+height: 5px;
+/*para Firefox*/
+-moz-border-radius: 0px 0px 0px 0px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 0px 0px 0px 0px;
+/* para Opera */
+border-radius: 0px 0px 0px 0px;
+}
+
+
+
+
+#caja8 {
+background-color: #d1d2d4;
+height: 100px;
+/*para Firefox*/
+-moz-border-radius: 0px 0px 0px 0px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 0px 0px 0px 0px;
+/* para Opera */
+border-radius: 0px 0px 0px 0px;
+}

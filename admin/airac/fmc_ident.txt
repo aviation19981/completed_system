@@ -1,0 +1,4 @@
+[Ident]
+NavData=AIRAC-1802
+OpProgram=FEB01FEB28/18
+CoData=JEP-1802
